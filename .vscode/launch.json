@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - InputMapArray$Reader",
+      "request": "launch",
+      "mainClass": "com.team766.frc2020.paths.InputMapArray$Reader",
+      "projectName": "2020"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Input$Reader",
+      "request": "launch",
+      "mainClass": "com.team766.frc2020.paths.Input$Reader",
+      "projectName": "2020"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - AStarGeneration",
+      "request": "launch",
+      "mainClass": "com.team766.frc2020.paths.AStarGeneration",
+      "projectName": "2020"
+    },
+    {
+      "type": "java",
+      "name": "Maroon Simulator",
+      "request": "launch",
+      "mainClass": "com.team766.hal.simulator.RobotMain",
+      "projectName": "2020"
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib Desktop Debug",
+      "request": "launch",
+      "desktop": true
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib roboRIO Debug",
+      "request": "launch",
+      "desktop": false
+    }
+  ]
+}
